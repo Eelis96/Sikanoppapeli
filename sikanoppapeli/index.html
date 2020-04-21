@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sikanoppapeli</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h1>Sikanoppapeli</h1>
+
+    <div class="pelaaja-rivi">
+
+        <div class="pelaaja-alue">
+            <div id="pelaaja1-header" class="active">
+                Pelaaja 1 - Kaikki Pisteet: <span id="pelaaja1-pisteet">0</span>
+            </div>
+            <hr>
+            <div>
+                <p>Tämän Vuoron Pisteet: <span id="pelaaja1-vuoro-pisteet">0</span></p>
+                <p><img id="pelaaja1-heitto-kuva" src="Kuvat/dice2.png"></p>
+                <p><button id="pelaaja1-heitto">Heitä</button> <button id="pelaaja1-pida">Pidä</button></p>
+            </div>
+        </div>
+
+        <div class="pelaaja-alue">
+            <div id="pelaaja2-header">
+                Pelaaja 2 - Kaikki Pisteet: <span id="pelaaja2-pisteet">0</span>
+            </div>
+            <hr>
+            <div>
+                <p>Tämän Vuoron Pisteet: <span id="pelaaja2-vuoro-pisteet">0</span></p>
+                <p><img id="pelaaja2-heitto-kuva" src="Kuvat/dice4.png"></p>
+                <p><button id="pelaaja2-heitto" disabled>Heitä</button> <button id="pelaaja2-pida" disabled>Pidä</button></p>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+    <script src="matikka.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
